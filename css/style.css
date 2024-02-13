@@ -11,7 +11,10 @@
 @import './home/home.css';
 
 /* Sobre */
-@import './sobre/sobre.css';
+@import './sobre/sobre-intro.css';
+@import './sobre/sobre-cuidados.css';
+@import './sobre/sobre-local.css';
 
 /* Menu */
+@import './menu/menu-intro.css';
 @import './menu/especiais.css';

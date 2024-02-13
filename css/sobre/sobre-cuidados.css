@@ -1,0 +1,55 @@
+.sobre-cuidados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--bra-2);
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.sobre-cuidados-image {
+    background-image: url('../../img/Sobre/sobre-fazenda.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 600px;
+    height: 600px;
+    transition: 0.6s;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.sobre-cuidados p {
+    padding: 80px 48px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.sobre-cuidados p:first-of-type {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.sobre-cuidados svg {
+    position: absolute;
+    right: 48px;
+    bottom: 24px;
+    width: 48px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.sobre-cuidados svg path {
+    fill: var(--bra-6);
+}
+
+.sobre-slide-movimento {
+    transform: translateX(648px);
+    background-image: url('../../img/Sobre/sobre-baristas.jpg');
+}
+
+.slide-ativo {
+    background-color: var(--bra-0);
+    border-radius: 4px;
+    transform: rotate(180deg);
+}

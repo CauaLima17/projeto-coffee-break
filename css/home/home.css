@@ -10,14 +10,14 @@
     margin-bottom: 120px;
 }
 
-.titulo-pagina {
+.titulo-pagina-home {
     display: grid;
     justify-items: center;
     text-align: center;
     gap: 48px;
 }
 
-.titulo-pagina a {
+.titulo-pagina-home a {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -26,26 +26,26 @@
     transition: 0.3s;
 }
 
-.titulo-pagina a:hover {
+.titulo-pagina-home a:hover {
     background-color: var(--bra-0);
     color: #000;
 }
 
-.titulo-pagina svg path {
+.titulo-pagina-home svg path {
     transition: 0.3s;
 }
 
-.titulo-pagina a:hover svg path {
+.titulo-pagina-home a:hover svg path {
     fill: #000;
     transform: translateX(6px);
 }
 
 @media (width <= 1000px) {
-    .titulo-pagina h1{
+    .titulo-pagina-home h1{
         font-size: 4rem;
     }
 
-    .titulo-pagina a {
+    .titulo-pagina-home a {
         font-size: 1.5rem;
         padding: 10px 15px;
     }
@@ -53,15 +53,15 @@
 
 @media (width <= 800px) {
 
-    .titulo-pagina {
+    .titulo-pagina-home {
         gap: 24px;
     }
 
-    .titulo-pagina h1{
+    .titulo-pagina-home h1{
         font-size: 2.5rem;
     }
 
-    .titulo-pagina a {
+    .titulo-pagina-home a {
         font-size: 1.5rem;
         padding: 5px 10px;
     }

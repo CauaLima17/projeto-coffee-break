@@ -1,7 +1,5 @@
 .container {
     max-width: 1240px;
-    padding-right: 20px;
-    padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -15,4 +13,25 @@
 
 .botao:hover {
     background-color: var(--mar-2);
+}
+
+.titulo-pagina {
+    justify-self: end;
+    margin-bottom: 60px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.titulo-pagina::after {
+    display: block;
+    content: '';
+    width: 200px;
+    height: 8px;
+    background-color: var(--bra-0);
+}
+
+@media (width <= 1000px) {
+    .titulo-pagina h1{
+        font-size: 4rem;
+    }
 }

@@ -13,15 +13,19 @@
 
 
 .font-2-xxl-m {
-    font: 400 4rem/1.5 'IBM Plex Sans', sans-serif;
+    font: 500 4rem/1.5 'IBM Plex Sans', sans-serif;
 }
 
 .font-2-xl-m {
-    font: 400 2rem/1.5 'IBM Plex Sans', sans-serif;
+    font: 500 2rem/1.5 'IBM Plex Sans', sans-serif;
 }
 
 .font-2-m-li {
     font: 300 2rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-m-m {
+    font: 500 2rem/1.5 'IBM Plex Sans', sans-serif;
 }
 
 .font-2-m-re {
