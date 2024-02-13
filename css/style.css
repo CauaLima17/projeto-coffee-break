@@ -1,0 +1,17 @@
+@import './global/global.css';
+@import './global/header.css';
+@import './global/footer.css';
+
+/* Utilidades */
+@import './utilidades/cores.css';
+@import './utilidades/elementos.css';
+@import './utilidades/tipografia.css';
+
+/* Home */
+@import './home/home.css';
+
+/* Sobre */
+@import './sobre/sobre.css';
+
+/* Menu */
+@import './menu/especiais.css';

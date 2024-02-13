@@ -1,0 +1,59 @@
+:root {
+    --bra-0: #FFFFFF;
+    --bra-1: #F7F7F7;
+    --bra-2: #F0F0F0;
+    --bra-3: #C6C6C6;
+    --bra-4: #BFBFBF;
+    --bra-5: #A2A2A2;
+    --bra-6: #6D6D6D;
+    
+
+    --mar-1:#A1662F;
+    --mar-2:#92561F;
+    --mar-3:#884C13;
+    --mar-4:#522A05;
+}
+
+.bra-0 {
+    color: var(--bra-0);
+}
+
+.bra-1 {
+    color: var(--bra-1);
+}
+
+.bra-2 {
+    color: var(--bra-2);
+}
+
+.bra-3 {
+    color: var(--bra-3);
+}
+
+.bra-4 {
+    color: var(--bra-4);
+}
+
+.bra-5 {
+    color: var(--bra-5);
+}
+
+.bra-0 {
+    color: var(--bra-0);
+}
+
+.mar-1 {
+    color: var(--mar-1);
+}
+
+.mar-2 {
+    color: var(--mar-2);
+}
+
+.mar-3 {
+    color: var(--mar-3);
+}
+
+.mar-4 {
+    color: var(--mar-4);
+}

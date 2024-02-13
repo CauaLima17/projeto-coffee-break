@@ -1,0 +1,49 @@
+.font-1-xxl-b {
+    font: 700 6rem/1.5 'Merriweather', sans-serif;
+}
+
+.font-1-xl-re {
+    font: 400 4rem/1.5 'Merriweather', sans-serif;
+}
+
+.font-1-m-b {
+    font: 700 3rem/1.5 'Merriweather', sans-serif;
+}
+
+
+
+.font-2-xxl-m {
+    font: 400 4rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-xl-m {
+    font: 400 2rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-m-li {
+    font: 300 2rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-m-re {
+    font: 400 2rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-s-m {
+    font: 500 1.75rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-xs-re {
+    font: 400 1.5rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-xxs-re {
+    font: 400 1.25rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-xxs-m {
+    font: 500 1.25rem/1.5 'IBM Plex Sans', sans-serif;
+}
+
+.font-2-vsmall-re {
+    font: 400 0.75rem/1.3 'IBM Plex Sans', sans-serif;
+}

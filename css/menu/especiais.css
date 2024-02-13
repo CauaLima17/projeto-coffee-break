@@ -1,0 +1,141 @@
+.menu-promocao {
+    max-width: 1400px;
+    margin: 0 auto 120px auto;
+    padding: 0 20px;
+}
+
+.menu-promocao h2 {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.menu-promocao h2::after {
+    display: block;
+    content: '';
+    width: 170px;
+    height: 4px;
+    background-color: var(--mar-1);
+}
+
+.menu-promocao-itens {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    overflow-x: auto;
+}
+
+.promocao-item {
+    position: relative;
+}
+
+.promocao-item .item-preco{
+    padding: 10px 12px 10px 8px;
+    background-color: var(--mar-1);
+    text-align: end;
+
+    position: absolute;
+    right: 0;
+    top: 16px;
+    border-radius: 4px 0 0 4px;
+}
+
+.promocao-item .item-preco p:first-child {
+    text-decoration: line-through;
+}
+
+.promocao-item-1-image, .promocao-item-2-image, .promocao-item-3-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 16px;
+}
+
+.promocao-item-1-image {
+    background-image: url('../../img/Menu/Comida/Bebida-7-c.jpg');
+}
+
+.promocao-item-2-image {
+    background-image: url('../../img/Menu/Comida/Bebida-5.jpg');
+}
+
+.promocao-item-3-image {
+    background-image: url('../../img/Menu/Comida/Bebida-4.jpg');
+}
+
+.promocao-item-1-image:hover, .promocao-item-2-image:hover, .promocao-item-3-image:hover{
+    box-shadow: inset 0 0 0 500px rgb(146, 86, 31, 0.3);
+}
+
+.promocao-item a.botao {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.promocao-item-1-image:hover > a, .promocao-item-2-image:hover > a, .promocao-item-3-image:hover > a {
+    opacity: 1;
+}
+
+.promocao-item h3 {
+    display: inline-block;
+}
+
+.promocao-item .item-descricao-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mar-1);
+    border-radius: 4px;
+    gap: 12px;
+    transition: 0.3s;
+}
+
+.promocao-item .item-descricao-btn:hover {
+    background-color: var(--mar-2);
+}
+
+.item-descricao-btn img {
+    width: 32px;
+}
+
+.promocao-item-nome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    border-top: 2px solid var(--mar-1);
+    padding-top: 16px;
+    margin-bottom: 60px;
+}
+
+
+
+@media (width <= 1400px) {
+    .menu-promocao-itens {
+        justify-content: initial;
+    }
+}
+
+@media (width <= 1000px) {
+    .menu-promocao h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (width <= 800px) {
+    .menu-promocao h2 {
+        font-size: 2.5rem;
+    }
+}
+

@@ -1,0 +1,18 @@
+.container {
+    max-width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.botao {
+    padding: 10px 15px;
+    background-color: var(--mar-1);
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: var(--mar-2);
+}
