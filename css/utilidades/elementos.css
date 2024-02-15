@@ -9,6 +9,8 @@
     background-color: var(--mar-1);
     border-radius: 4px;
     transition: 0.3s;
+    border: none;
+    cursor: pointer;
 }
 
 .botao:hover {

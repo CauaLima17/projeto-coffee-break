@@ -75,7 +75,7 @@
     box-shadow: inset 0 0 0 500px rgb(146, 86, 31, 0.3);
 }
 
-.promocao-item a.botao {
+.promocao-item button.botao {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -84,7 +84,7 @@
     position: absolute;
 }
 
-.promocao-item-1-image:hover > a, .promocao-item-2-image:hover > a, .promocao-item-3-image:hover > a {
+.promocao-item-1-image:hover > button, .promocao-item-2-image:hover > button, .promocao-item-3-image:hover > button {
     opacity: 1;
 }
 

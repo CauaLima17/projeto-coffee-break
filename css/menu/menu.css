@@ -1,5 +1,7 @@
 .menu {
     margin-bottom: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: aqua;
 }
 
 .menu-header {
@@ -13,7 +15,109 @@
 .menu-header button {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
     cursor: pointer;
     border: none;
+}
+
+.search-box-container {
+    display: flex;
+    gap: 16px;
+}
+
+.search-box-container input {
+    width: 340px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px var(--bra-0);
+    padding: 8px 24px;
+}
+
+.search-box-container input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--mar-2), 0 0 0 3px var(--mar-1);
+}
+
+.search-box-container label {
+    cursor: pointer;
+}
+
+.menu-itens {
+    max-height: 1240px;
+    padding: 80px 40px;
+    background-color: var(--bra-2);
+    overflow-y: scroll;
+}
+
+.menu-itens .menu-item:not(:last-of-type) {
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    background-color: var(--bra-1);
+}
+
+.menu-item-image {
+    position: relative;
+}
+
+.menu-item-image img {
+    border-left: 8px solid var(--mar-1);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-item-image .menu-item-preco {
+    padding: 10px 12px 10px 8px;
+    background-color: var(--mar-1);
+    text-align: end;
+
+    position: absolute;
+    right: 0;
+    top: 16px;
+    border-radius: 4px 0 0 4px;
+}
+
+.menu-item-tags {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 36px 24px;
+    gap: 16px;
+}
+
+.menu-item-tags span {
+    padding: 10px 16px;
+    border-radius: 4px;
+    background-color: var(--bra-2);
+}
+
+.menu-item-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 16px 32px 36px 0;
+}
+
+.menu-item-conteudo p {
+    padding: 20px 24px;
+    background-color: var(--bra-2);
+    border-radius: 4px;
+    grid-column: 1 / -1;
+}
+
+.menu-item-conteudo button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu-item-conteudo button img {
+    width: 24px;
+    height: 24px;
 }
