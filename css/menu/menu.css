@@ -1,0 +1,19 @@
+.menu {
+    margin-bottom: 120px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: var(--mar-4);
+}
+
+.menu-header button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+}

@@ -35,3 +35,31 @@
     width: 600px;
     height: 600px;
 }
+
+@media (width <= 1200px) {
+    .sobre-local-lacos {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-local-lacos-image {
+        width: 100%;
+    }
+
+    .sobre-local-lacos p {
+        padding: 24px;
+    }
+}
+
+@media (width <= 800px) {
+    .sobre-local-conteudo h2 {
+        font-size: 3rem;
+    }
+
+    .sobre-local-conteudo p {
+        font-size: 1rem;
+    }
+
+    .sobre-local-lacos p {
+        font-size: 1.5rem;
+    }
+}

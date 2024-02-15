@@ -19,9 +19,19 @@
     grid-row: 1;
 }
 
+.sobre-cuidados-image-barista {
+    display: none;
+    background-image: url('../../img/Sobre/sobre-baristas.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 600px;
+    height: 600px;
+}
+
 .sobre-cuidados p {
     padding: 80px 48px;
-    grid-column: 2;
     grid-row: 1;
 }
 
@@ -52,4 +62,42 @@
     background-color: var(--bra-0);
     border-radius: 4px;
     transform: rotate(180deg);
+}
+
+@media (width <= 1200px) {
+    .sobre-cuidados {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-cuidados p {
+        padding: 24px;
+    }
+
+    .sobre-cuidados p:nth-of-type(2) {
+        grid-row: 2;
+        margin-bottom: 80px;
+    }
+
+    .sobre-cuidados p:first-of-type {
+        grid-row: 4;
+    }
+
+    .sobre-cuidados-image {
+        width: 100%;
+    }
+
+    .sobre-cuidados-image-barista {
+        display: block;
+        width: 100%;
+    }
+
+    .sobre-cuidados svg {
+        display: none;
+    }
+}
+
+@media (width <= 800px) {
+    .sobre-cuidados p {
+        font-size: 1.5rem;
+    }
 }

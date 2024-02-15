@@ -16,5 +16,6 @@
 @import './sobre/sobre-local.css';
 
 /* Menu */
+@import './menu/menu.css';
 @import './menu/menu-intro.css';
 @import './menu/especiais.css';

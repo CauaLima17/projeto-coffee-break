@@ -1,6 +1,8 @@
-header {
+.header {
     width: 100%;
     position: absolute;
+    right: 0;
+    left: 0;
 }
 
 .header {
@@ -54,7 +56,7 @@ header {
     }
 
     .header li:not(:last-child) a{
-        background-color: var(--bra-0);
+        box-shadow: inset 0 0 0 100px rgb(255, 255, 255, 0.3);
         color: #000;
         border-radius: 4px;
         padding: 8px 16px;

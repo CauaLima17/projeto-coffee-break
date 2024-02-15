@@ -10,32 +10,103 @@
     <title>Coffee Break | Menu</title>
 </head>
 <body id="menu">
-    <header>
-
-        <div class="header container">
-            <a href="./"><img src="./Coffee Break.svg" alt="Coffee Break"></a>
-        
-            <nav aria-label="Primária">
-                <ul class="bra-0 font-2-xs-re">
-                    <li><a href="./sobre.html">Sobre</a></li>
-                    <li><a href="./menu.html">Menu</a></li>
-                    <li><a href="./contato.html">Contato</a></li>
-                    <li><a href="./login.html">Login</a></li>
-                    <li><a class="botao" href="./login.html">Cadastro</a></li>
-                </ul>
-            </nav>
-        </div>
-
-    </header>
+    <header class="header container">
+        <a href="./"><img src="./Coffee Break.svg" alt="Coffee Break"></a>
     
-    <section aria-label="Sobre Coffee Break" class="page-image">
+        <nav aria-label="Primária">
+            <ul class="bra-0 font-2-xs-re">
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a class="botao" href="./login.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main aria-label="Sobre Coffee Break" class="page-image">
         <div class="titulo-pagina container">
             <h1 class="bra-0 font-1-xxl-b ">
                 NOSSO 
                 <br>
                 MENU</h1>
         </div>
-    </section>
+    </main>
+
+    <article class="menu-promocao">
+        <h2 class="mar-3 font-1-xl-re">ESPECIAIS DO DIA</h2>
+
+        <div class="menu-promocao-itens">
+
+            <div class="promocao-item">
+                <div class="promocao-item-1-image">
+
+                    <span class="item-preco">
+                        <p class="font-2-vsmall-re mar-3">R$ 12,49</p>
+                        <p class="font-2-xxs-re bra-0">R$ 9,90</p>
+                    </span>
+    
+                    <a class="font-2-m-re bra-0 botao botao" href="./"><img src="./img/Icones/Shopping-Car.svg" alt="">Fazer pedido</a>
+
+                </div>
+
+                <div class="promocao-item-nome">
+                    <h3 class="font-2-m-re mar-3">Flat White</h3>
+                    <a class="font-2-xs-re bra-0 item-descricao-btn" href="./">Descrição <img src="./img/Icones/seta.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="promocao-item">
+                <div class="promocao-item-2-image">
+
+                    <span class="item-preco">
+                        <p class="font-2-vsmall-re mar-3">R$ 6,49</p>
+                        <p class="font-2-xxs-re bra-0">R$ 5,49</p>
+                    </span>
+    
+                    <a class="font-2-m-re bra-0 botao" href="./"><img src="./img/Icones/Shopping-Car.svg" alt="">Fazer pedido</a>
+
+                </div>
+
+                <div class="promocao-item-nome">
+                    <h3 class="font-2-m-re mar-3">Espresso</h3>
+                    <a class="font-2-xs-re bra-0 item-descricao-btn" href="./">Descrição <img src="./img/Icones/seta.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="promocao-item">
+                <div class="promocao-item-3-image">
+
+                    <span class="item-preco">
+                        <p class="font-2-vsmall-re mar-3">R$ 15,49</p>
+                        <p class="font-2-xxs-re bra-0">R$ 12,90</p>
+                    </span>
+    
+                    <a class="font-2-m-re bra-0 botao" href="./"><img src="./img/Icones/Shopping-Car.svg" alt="">Fazer pedido</a>
+                    
+                </div>
+
+                <div class="promocao-item-nome">
+                    <h3 class="font-2-m-re mar-3">Cappuccino</h3>
+                    <a class="font-2-xs-re bra-0 item-descricao-btn" href="./">Descrição <img src="./img/Icones/seta.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </article>
+
+    <article class="menu container">
+        <header class="menu-header">
+            <div>
+                <button class="font-2-s-m bra-0 botao">Filtrar itens <img src="./img/Icones/Filtrar.svg" alt=""></button>
+            </div>
+
+            <div>
+                <input id="buscar" type="text" placeholder="Buscar no menu">
+                <label for="buscar"><img src="./img/Icones/Buscar.svg" alt=""></label>
+            </div>
+        </header>
+    </article>
 
     <footer>
         <div class="footer container">

@@ -9,4 +9,6 @@ const sobre_slide_image_1 = document.querySelector('.sobre-cuidados-image')
 
 const sobre_Seta_Slide = document.querySelector('.sobre-cuidados svg')
 
-sobre_Seta_Slide.addEventListener('click', sobreClickSlide)
+if (window.matchMedia("(min-width: 1200px)").matches) {
+    sobre_Seta_Slide.addEventListener('click', sobreClickSlide)
+}
