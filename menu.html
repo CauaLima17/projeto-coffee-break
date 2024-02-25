@@ -10,7 +10,7 @@
     <title>Coffee Break | Menu</title>
 </head>
 <body id="menu">
-    <header class="header container">
+    <header class="header container" id="header">
         <a href="./"><img src="./Coffee Break.svg" alt="Coffee Break"></a>
     
         <nav aria-label="Primária">
@@ -97,12 +97,21 @@
 
     <article class="menu container">
         <header class="menu-header">
-            <button class="font-2-s-m bra-0 botao">Filtrar itens <img src="./img/Icones/Filtrar.svg" alt=""></button>
-
+            
             <div class="search-box-container">
                 <input class="font-2-xxs-re" id="buscar" type="text" placeholder="Buscar no menu">
                 <label for="buscar"><img src="./img/Icones/Buscar.svg" alt=""></label>
             </div>
+
+            <button class="font-2-s-m bra-0 botao">Filtrar itens<img src="./img/Icones/Filtrar.svg" alt=""></button>
+
+            <div class="menu-header-filtros">
+                <p class="font-2-xxs-re" id="preco">Filtrar por preço (Menor)</p>
+                <p class="font-2-xxs-re" id="popularidade">Filtrar por popularidade</p>
+                <p class="font-2-xxs-re" id="bolos">Filtrar por bolos</p>
+                <p class="font-2-xxs-re" id="bebidas">Filtrar por bebidas</p>
+            </div>
+
         </header>
 
         <section aria-label="Comidas do menu" class="menu-itens">

@@ -32,6 +32,8 @@
     background-color: var(--bra-0);
 }
 
+
+
 @media (width <= 1000px) {
     .titulo-pagina h1{
         font-size: 4rem;
