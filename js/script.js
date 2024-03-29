@@ -29,3 +29,6 @@ function abrirFiltrosMenu () {
 if (botaoFiltrarMenu) {
     botaoFiltrarMenu.addEventListener('click', abrirFiltrosMenu);
 }
+
+
+//

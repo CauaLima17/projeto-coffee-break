@@ -181,6 +181,10 @@
         grid-column: 1 / -1;
     }
 
+    .menu-header img {
+        width: 24px;
+    }
+
     .menu-item button {
         grid-column: 1 / -1;
         justify-self: start;
