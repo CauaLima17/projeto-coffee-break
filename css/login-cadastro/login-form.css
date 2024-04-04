@@ -1,4 +1,4 @@
-.contato {
+.login-cadastro {
     margin-bottom: 120px;
     padding-left: 20px;
     padding-right: 20px;
@@ -6,14 +6,14 @@
     box-shadow: inset 0 200px var(--bra-1), inset 0 -200px var(--bra-1);
 }
 
-.contato-grid {
+.login-cadastro-grid {
     display: grid;
     grid-template-columns: 1.4fr 2fr;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.contato-horarios {
-    background-image: url('../../img/Contato/horarios.jpg');
+.login {
+    background-image: url('../../img/Sobre/sobre-cafe.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,23 +29,36 @@
     justify-content: center;
 }
 
-.contato-horarios h3 {
-    text-align: center;
+.login h3 {
     margin-top: 120px;
     margin-bottom: 60px;
+    text-align: center;
 }
 
-.horarios {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
-    row-gap: 16px;
+.login button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: transparent;
+    padding: 10px 18px;
+    border: 2px solid var(--bra-0);
+    transition: 0.3s;
+    cursor: pointer;
     margin-bottom: 120px;
 }
 
-.horarios p:last-child {
-    grid-column: 1 / -1;
-    text-align: center;
+.login button:hover {
+    background-color: var(--bra-0);
+    color: #000;
+}
+
+.login button svg path {
+    transition: 0.3s;
+}
+
+.login button:hover svg path {
+    fill: #000;
+    transform: translateX(6px);
 }
 
 .redes {
@@ -55,48 +68,43 @@
 
 
 
-.contato-form {
+.cadastro-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     background-color: var(--bra-0);
-    padding: 40px 20px;
+    padding: 40px 60px;
 }
 
-.contato-form h3 {
+.cadastro-form h3 {
     margin-bottom: 32px;
 }
 
-.contato-form div {
+.cadastro-form button {
+    text-transform: uppercase;
+}
+
+.cadastro-form div {
     width: 100%;
 }
 
-.contato-form input, textarea {
+.cadastro-form input {
     width: 100%;
     padding: 12px;
     border-radius: 4px;
     border: 1px solid var(--bra-6);
-    
-}
-
-.contato-form input {
     margin-bottom: 28px;
     padding-left: 40px;
 }
 
-.contato-form textarea {
-    margin-bottom: 32px;
-    padding-left: 40px;
-}
-
-.contato-form input:focus, textarea:focus {
+.cadastro-form input:focus {
     border: 1px solid var(--mar-2);
     outline: 2px solid var(--mar-2);
 }
 
-.form-item {
+.form-input {
     position: relative;
 }
 
@@ -110,22 +118,27 @@
 
 
 @media (width <= 1200px) {
-    .contato-grid {
+    .login-cadastro-grid {
         grid-template-columns: 1fr;
     }
 
-    .contato-horarios {
+    .login {
         box-shadow: inset 0 20px var(--mar-2);
     }
 }
 
 
 @media (width <= 500px) {
-    .contato-horarios h3 {
+    .login h3 {
         font-size: 3rem;
     }
 
-    .horarios p {
-        font-size: 1rem;
+    .cadastro-form {
+        padding: 40px 20px;
+    }
+
+    .login button {
+        font-size: 2rem;
+        padding: 8px;
     }
 }

@@ -23,3 +23,7 @@
 /* Contato */
 @import './contato/contato-intro.css';
 @import './contato/contato-form.css';
+
+/* Login e Cadastro */
+@import './login-cadastro/login-intro.css';
+@import './login-cadastro/login-form.css';

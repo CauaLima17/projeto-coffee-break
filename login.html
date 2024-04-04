@@ -7,9 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Coffee Break | Home</title>
+    <title>Coffee Break | Login e Cadastro</title>
 </head>
-<body id="home">
+<body id="login-cadastro">
     <header class="header container" id="header">
         <div>
             <a href="./"><img src="./Coffee Break.svg" alt="Coffee Break"></a>
@@ -29,73 +29,59 @@
         </nav>
     </header>
 
-    <main aria-label="Explore nosso menu" class="page-image">
-        <div class="titulo-pagina-home container">
-            <h1 class="bra-0 font-1-xxl-b ">SINTA O SABOR DE UMA NOVA EXPERIÊNCIA</h1>
-    
-            <a class="font-2-xl-m bra-0" href="./menu.html">EXPLORE NOSSO MENU <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 36L25.2 33.1L32.3 26H8V22H32.3L25.2 14.9L28 12L40 24L28 36Z" fill="white"/></svg></a>
+    <main aria-label="Login e cadastro Coffee Break" class="page-image">
+        <div class="titulo-pagina container">
+            <h1 class="bra-0 font-1-xxl-b ">CADASTRE-SE</h1>
         </div>
     </main>
 
-    <article class="menu-promocao">
-        <h2 class="mar-3 font-1-xl-re">ESPECIAIS DO DIA</h2>
+    <article class="login-cadastro">
+        <div class="login-cadastro-grid container">
+            <section class="login">
+                <h3 class="font-2-xxl-m bra-0">JÁ POSSUI UMA CONTA?</h3>
 
-        <div class="menu-promocao-itens">
+                <button class="font-2-xl-m bra-0">Fazer login <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 36L25.2 33.1L32.3 26H8V22H32.3L25.2 14.9L28 12L40 24L28 36Z" fill="white"/></svg></button>
 
-            <div class="promocao-item">
-                <div class="promocao-item-1-image">
+                <div class="redes">
+                    <a href="./"><img src="./img/Icones/Instagram.svg" alt="Instagram"></a>
+                    <a href="./"><img src="./img/Icones/twitter-x-seeklogo-3 1.svg" alt="Twitter"></a>
+                    <a href="./"><img src="./img/Icones/Facebook.svg" alt="Facebook"></a>
+                </div>
+            </section>
 
-                    <span class="item-preco">
-                        <p class="font-2-vsmall-re mar-3">R$ 12,49</p>
-                        <p class="font-2-xxs-re bra-0">R$ 9,90</p>
-                    </span>
-    
-                    <button class="font-2-m-re bra-0 botao botao" href="./"><img src="./img/Icones/Shopping-Car.svg" alt="">Fazer pedido</button>
+            <form class="cadastro-form" action="./login.html">
+                <h3 class="font-2-xl-m bra-6">Crie sua conta</h3>
 
+                <div class="form-input">
+                    <input class="font-2-xxs-re bra-5" type="text" name="nome" placeholder="Nome" id="nome" required>
+                    <div class="icon">
+                        <img src="./img/Icones/Perfil.svg" alt="">
+                    </div>
                 </div>
 
-                <div class="promocao-item-nome">
-                    <h3 class="font-2-m-re mar-3">Flat White</h3>
-                    <button class="font-2-xs-re bra-0 item-descricao-btn" href="./">Descrição <img src="./img/Icones/seta.svg" alt=""></button>
-                </div>
-            </div>
-
-            <div class="promocao-item">
-                <div class="promocao-item-2-image">
-
-                    <span class="item-preco">
-                        <p class="font-2-vsmall-re mar-3">R$ 6,49</p>
-                        <p class="font-2-xxs-re bra-0">R$ 5,49</p>
-                    </span>
-    
-                    <button class="font-2-m-re bra-0 botao" href="./"><img src="./img/Icones/Shopping-Car.svg" alt="">Fazer pedido</button>
-
+                <div class="form-input">
+                    <input class="font-2-xxs-re bra-5" type="text" name="email" placeholder="Seu email" id="email" required>
+                    <div class="icon">
+                        <img src="./img/Icones/Email.svg" alt="">
+                    </div>
                 </div>
 
-                <div class="promocao-item-nome">
-                    <h3 class="font-2-m-re mar-3">Espresso</h3>
-                    <button class="font-2-xs-re bra-0 item-descricao-btn" href="./">Descrição<img src="./img/Icones/seta.svg" alt=""></button>
-                </div>
-            </div>
-
-            <div class="promocao-item">
-                <div class="promocao-item-3-image">
-
-                    <span class="item-preco">
-                        <p class="font-2-vsmall-re mar-3">R$ 15,49</p>
-                        <p class="font-2-xxs-re bra-0">R$ 12,90</p>
-                    </span>
-    
-                    <button class="font-2-m-re bra-0 botao" href="./"><img src="./img/Icones/Shopping-Car.svg" alt="">Fazer pedido</button>
-                    
+                <div class="form-input">                   
+                    <input class="font-2-xxs-re bra-5" type="password" name="senha" placeholder="Sua senha" id="senha" required>     
+                    <div class="icon">
+                        <img src="./img/Icones/Senha.svg" alt="">
+                    </div>         
                 </div>
 
-                <div class="promocao-item-nome">
-                    <h3 class="font-2-m-re mar-3">Cappuccino</h3>
-                    <button class="font-2-xs-re bra-0 item-descricao-btn" href="./">Descrição<img src="./img/Icones/seta.svg" alt=""></button>
+                <div class="form-input">                   
+                    <input class="font-2-xxs-re bra-5" type="password" name="senha" placeholder="Repita a senha" id="senha" required>     
+                    <div class="icon">
+                        <img src="./img/Icones/Senha.svg" alt="">
+                    </div>         
                 </div>
-            </div>
 
+                <button class="botao font-2-xs-re bra-0">Criar conta</button>
+            </form>
         </div>
     </article>
 
@@ -137,7 +123,5 @@
 
         </div>
     </footer>
-
-    <script src="./js/script.js"></script>
 </body>
 </html>
