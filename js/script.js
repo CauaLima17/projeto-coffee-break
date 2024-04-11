@@ -1,34 +1,26 @@
-// Função de slide (Página Sobre)
-
-const sobre_slide_image_1 = document.querySelector('.sobre-cuidados-image');
-
-const sobre_Seta_Slide = document.querySelector('.sobre-cuidados svg');
+// SLIDE PÁGINA SOBRE
+const sobreSlideImage_1 = document.querySelector('.sobre-cuidados-image');
+const sobreSetaSlide = document.querySelector('.sobre-cuidados svg');
 
 function sobreClickSlide(){
-    sobre_slide_image_1.classList.toggle('sobre-slide-movimento');
-    sobre_Seta_Slide.classList.toggle('slide-ativo');
+    sobreSlideImage_1.classList.toggle('sobre-slide-movimento');
+    sobreSetaSlide.classList.toggle('slide-ativo');
 }
 
-if (sobre_Seta_Slide) {
+if (sobreSetaSlide) {
     if (window.matchMedia("(min-width: 1200px)").matches) {
-        sobre_Seta_Slide.addEventListener('click', sobreClickSlide);
+        sobreSetaSlide.addEventListener('click', sobreClickSlide);
     }
-}
+};
 
+// NAVEGAÇÃO RESPONSIVA HEADER
+const responsiveNav = document.querySelector('header div .nav-phone')
 
-// Função de filtro (Página menu)
+function showRespNav() {
+    if (window.getComputedStyle(responsiveNav).display == 'none'){
+        responsiveNav.style.display = 'block'
 
-const botaoFiltrarMenu = document.querySelector('.menu-header button');
-
-const filtrosDoMenu = document.querySelector('.menu-header-filtros');
-
-function abrirFiltrosMenu () {
-    filtrosDoMenu.classList.toggle('display-block');
-}
-
-if (botaoFiltrarMenu) {
-    botaoFiltrarMenu.addEventListener('click', abrirFiltrosMenu);
-}
-
-
-//
+    } else {
+        responsiveNav.style.display = 'none'
+    };
+};
