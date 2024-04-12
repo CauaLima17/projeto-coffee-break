@@ -19,6 +19,7 @@
 @import './menu/menu.css';
 @import './menu/menu-intro.css';
 @import './menu/especiais.css';
+@import './menu/menu-item-ativo.css';
 
 /* Contato */
 @import './contato/contato-intro.css';

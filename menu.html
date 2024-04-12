@@ -115,7 +115,7 @@
             <header class="menu-header">
             
                 <div class="search-box-container">
-                    <input class="font-2-xxs-re" id="buscar" type="text" placeholder="Buscar no menu">
+                    <input id="search-box" class="font-2-xxs-re" id="buscar" type="search" placeholder="Buscar no menu">
                     <label for="buscar"><img src="./img/Icones/Buscar.svg" alt=""></label>
                 </div>
     
@@ -131,6 +131,28 @@
             </header>
     
             <section aria-label="Comidas do menu" class="menu-itens">
+                <div id="item-ativo" class="item-ativo-sombra">
+                    <div class="item-ativo">
+                        <button onclick="exitActiveElement()"><img src="./img/Icones/Exit.svg" alt=""></button>
+
+                        <picture class="item-ativo-image">
+                            <img src="./img/Menu/Comida/Bolo 1.jpg" alt="">
+                        </picture>
+
+                        <div class="item-ativo-info">
+                            <h3 class="item-ativo-nome font-2-xl-m">Chocolate & Baunilha</h3>
+                            <p class="item-ativo-descricao font-2-xxs-re bra-6">Fatia de bolo de chocolate, massa rica, recheio cremoso de baunilha, coberta com raspas de chocolate branco. Uma combinação perfeita de indulgência e textura deliciosa.</p>
+    
+                            <div>
+                                <button class="botao bra-0 font-2-xs-re">
+                                    <img src="./img/Icones/Shopping-Car.svg" alt=""> Retirar na loja
+                                </button>
+                                <label class="font-2-xs-re bra-6" for="quantidade">Quantidade: <input type="number" value="1" id="quantidade"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="menu-item">
                     <div class="menu-item-image">
                         <picture>
